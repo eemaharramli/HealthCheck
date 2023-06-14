@@ -5,13 +5,13 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShop.Monitoring", "TvShop.Monitoring\TvShop.Monitoring.csproj", "{22BA4526-93A5-44D6-8151-E22C802DC95A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{5E718EB0-FADF-4361-BA6D-163F3B273DF8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3B2830BA-9FFF-4E3D-8AA2-E56F68458224}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShop.DatabaseService", "TvShop.DatabaseService\TvShop.DatabaseService.csproj", "{FAEFE561-C27E-49C7-A639-628DCCBDE4B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShop.SmsService", "TvShop.SmsService\TvShop.SmsService.csproj", "{6E3F0D14-2AB0-4A15-AEE6-653548F1B84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{BB59993C-0422-45BF-B642-75178BDB2D01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +36,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{22BA4526-93A5-44D6-8151-E22C802DC95A} = {BB59993C-0422-45BF-B642-75178BDB2D01}
 		{FAEFE561-C27E-49C7-A639-628DCCBDE4B2} = {3B2830BA-9FFF-4E3D-8AA2-E56F68458224}
 		{6E3F0D14-2AB0-4A15-AEE6-653548F1B84C} = {3B2830BA-9FFF-4E3D-8AA2-E56F68458224}
 	EndGlobalSection
